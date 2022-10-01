@@ -11,9 +11,12 @@
 </head>
 <body>
     <header>CALCULATOR</header>
-    <div id="ans"></div>
+    
     <main>
+        <div id="ans">0</div>
         <div class="row1">
+            <button id="ce" class="calc extra" onclick="ceOp()">C</button>
+            <button id="sq"  class="calc sq" onclick="squOp()">^2</button>
             <button id="btn-1" class="calc numb" >1</button>
             <button id="btn-2" class="calc numb" >2</button>
             <button id="btn-3" class="calc numb">3</button>
@@ -21,15 +24,15 @@
             <button id="btn-4" class="calc numb">4</button>
             <button id="btn-5" class="calc numb">5</button>
             <button id="btn-6" class="calc numb">6</button>
-            <button id="sub" class="calc op" onclick="subOp()">-</button>
             <button id="btn-7" class="calc numb">7</button>
             <button id="btn-8" class="calc numb">8</button>
             <button id="btn-9" class="calc numb">9</button>
-            <button id="mul" class="calc op" onclick="mulOp()">x</button>
-            <button id="ce" class="calc extra" onclick="ceOp()">CE</button>
+            <button id="sub" class="calc op" onclick="subOp()">-</button>
+            <button id="dot" class="calc dec" onclick="decimal()">.</button>
             <button id="btn-0" class="calc numb">0</button>
-            <button id="equal" class="calc calc extra" onclick="equalOp()">=</button>
             <button id="div" class="calc op" onclick="divOp()">/</button>
+            <button id="mul" class="calc op" onclick="mulOp()">x</button>
+            <button id="equal" class="calc extra" onclick="equalOp()">=</button>
         </div>
     </main>
 </body>
