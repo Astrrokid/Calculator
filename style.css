@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+main{
+    margin-top: 200px;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    
+}
+.calc{
+    background-color: rgb(159, 118, 197);
+    width: 50px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 70px;
+}
