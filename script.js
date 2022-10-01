@@ -22,7 +22,12 @@ function decimal(){
     transit= transit +"."
     output.textContent= transit
 }
-function ceOp(){location.reload()}
+function ceOp(){
+    transit=""
+    counterCheck=0
+    output.textContent = 0
+    
+}
 function addOp(){operate("add")}
 function subOp(){operate("sub")}
 function divOp(){operate("div")}
