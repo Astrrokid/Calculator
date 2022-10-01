@@ -48,12 +48,19 @@ main{
     grid-column: span 3;
     width: 214px;
     background-color: rgba(233, 84, 84, 0.836);
+
+}
+#ce:active{
+    background-color: rgb(105, 184, 105);
 }
 #equal{
     grid-row: span 3;
     width: 286px;
     margin-top: 2px;
     background-color: rgb(28, 209, 28);
+}
+#equal:active{
+    background-color: rgb(114, 160, 114);
 }
 .op{
     background-color: rgb(140, 230, 162);
